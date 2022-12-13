@@ -84,6 +84,5 @@ Here are some of our favorite examples for visualizing the generated piano roll 
 ![trainperp-2](https://user-images.githubusercontent.com/72118815/206930227-8c4a06fb-1482-41a5-9414-f9e8f241352f.png)
 
 ## Future Work
-- Our approach in terms of preprocessing the input data was to combine all the tokenized
-shuffle data in the future
-could achieve a higher framerate with an encoder decoder structure, which removes noise from music with a high frame rate.
+- Our approach in terms of preprocessing the input data was to combine each tokenized song together and then use them as data and label for the training process. Some hypotheses are that if we have enough GPU resources, we could train on a larger dataset and take partial notes from each song. Then we can shuffle those partially tokenized songs which might give us better results.
+- We could also train another deep learning model that learns how to add and remove noise from music with an encoder and a decoder. This allows us to use a higher framerate.
