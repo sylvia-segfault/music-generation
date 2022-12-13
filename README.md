@@ -11,7 +11,10 @@ The specific type of music we are trying to generate is classical style piano mu
 ## Related Work
 We were inspired by text generation in terms of tokenizing the training data as well as using different sampling strategies to generate the results.
 
-### Datasets
+## Demo
+https://user-images.githubusercontent.com/72118815/207254704-e8f4c18d-fc41-4bc6-91c7-3753aceba31d.mp4
+
+## Datasets
 [Big Dataset](https://github.com/bytedance/GiantMIDI-Piano)  
 [Medium Dataset](https://www.kaggle.com/datasets/kritanjalijain/maestropianomidi)  
 [Small Dataset](http://www.piano-midi.de/schum.htm)  
